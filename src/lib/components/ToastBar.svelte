@@ -43,7 +43,7 @@
 <style>
 	@keyframes enterAnimation {
 		0% {
-			transform: translate3d(0, calc(var(--factor) * -200%), 0) scale(0.6);
+			transform: translate3d(0, calc(var(--factor) * -800%), 0) scale(0.6);
 			opacity: 0.5;
 		}
 		100% {
@@ -86,13 +86,14 @@
 		align-items: center;
 		background: #fff;
 		color: #363636;
-		line-height: 1.3;
+		line-height: 1.4;
 		will-change: transform;
-		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 		max-width: 350px;
 		pointer-events: auto;
-		padding: 8px 10px;
-		border-radius: 8px;
+		padding: 16px 20px;
+		font-size: 18px;
+		border-radius: 10px;
 	}
 
 	.transparent {

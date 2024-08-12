@@ -39,7 +39,7 @@
 
 <style>
 	.toaster {
-		--default-offset: 16px;
+		--default-offset: 60px;
 
 		position: fixed;
 		z-index: 9999;
