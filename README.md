@@ -18,15 +18,15 @@ svelte-french-toast is a Svelte port of Timo Lins’s react-hot-toast, a lightwe
 Install the package with your favorite package manager:
 
 ```
-npm install svelte-french-toast
+npm install @ratiu5dev/svelte-french-toast
 ```
 
 ```
-pnpm install svelte-french-toast
+pnpm install @ratiu5dev/svelte-french-toast
 ```
 
 ```
-yarn add svelte-french-toast
+yarn add @ratiu5dev/svelte-french-toast
 ```
 
 ## Basic usage
@@ -35,7 +35,7 @@ Mount a `<Toaster />` at the top level of your app and use the `toast` API to di
 
 ```js
 <script>
-	import toast, {Toaster} from 'svelte-french-toast'
+	import toast, {Toaster} from '@ratiu5dev/svelte-french-toast'
 
 	function handleClick() {
 		toast.success('Hello, world!')
