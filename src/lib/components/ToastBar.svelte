@@ -85,6 +85,7 @@
 		display: flex;
 		align-items: center;
 		background: #fff;
+		border: 1px solid #e2e8f0;
 		color: #363636;
 		line-height: 1.4;
 		will-change: transform;
